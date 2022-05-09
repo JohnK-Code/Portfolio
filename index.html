@@ -1,0 +1,158 @@
+
+
+<!--CHECK NOTES-->
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Mafia</title>
+
+    <!--External Custom CSS-->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+    <!--For custom fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav"> <!--NavBar-->
+        <a href="#myTopnav">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
+    <div class="bg-image"></div> <!--Hero Image with text and button overlay-->
+    <div class="bg-text">
+        <h1 style="font-size: 50px;">Tech-Mafia</h1>
+        <h2>Full-Stack Web Development</h2>
+        <button>VIEW OUR WORK</button>
+    </div>
+
+
+
+    <div class="about-section" id="about-section"> <!--About Section-->
+        <h2>About Us</h2>
+        <p>
+            I am a self-taught Python/Django Developer with a Degree in Computer Networking.<br>
+            I build fully responsive bespoke websites for small businesses in Scotland.<br>
+            Some of the technoligies I use are shown below.
+        </p>
+    </div>
+    <div class="about-row">
+        <div class="about-column">
+            <div class="about-card">
+                <img src="./images/html-image.jpg" alt="HTML CSS">
+                <div class="about-container">
+                    <h2>HTML - CSS</h2>
+                    <p class="about-p">HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications.</p>
+                    <p onclick="window.open('https://www.w3.org/standards/webdesign/htmlcss')"><button class="about-button">Learn More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-column">
+            <div class="about-card">
+                <img src="./images/javascript-image.jpg" alt="JavaScript">
+                <div class="about-container">
+                    <h2>JavaScript</h2>
+                    <p class="about-p">JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.</p>
+                    <p onclick="window.open('https://en.wikipedia.org/wiki/JavaScript')"><button class="about-button">Learn More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-column">
+            <div class="about-card">
+                <img src="./images/python-image.jpg" alt="Python Django">
+                <div class="about-container">
+                    <h2>Python/Django</h2>
+                    <p class="about-p">Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</p>
+                    <p onclick="window.open('https://www.djangoproject.com/')"><button class="about-button">Learn More</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="portfolio-section"> <!--Portfolio Section-->
+        <h2>Portfolio</h2>
+        <p>
+            Below is a selection of some of the work we have completed for previous customers.<br>
+            It also includes some of our own personal projects.
+        </p>
+    </div>
+    <div class="portfolio-row">
+        <div class="portfolio-column">
+            <div class="portfolio-card">
+                <img src="./images/placeholder.png" alt="Placeholder Image">
+                <div class="portfolio-container">
+                    <h2>The Foxton Bar & Grill</h2>
+                    <p class="portfolio-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus felis, sollicitudin sit amet luctus sed, pellentesque nec leo. Quisque volutpat est nulla, in blandit ligula eleifend at. Maecenas suscipit dignissim nulla, ut convallis ligula molestie non. Aenean aliquet tellus efficitur, fringilla dui eget, euismod nunc. Integer lorem enim, pretium sit amet varius vel, suscipit iaculis lectus. Donec placerat interdum accumsan. Etiam ut mauris id nulla congue luctus.</p>
+                    <p><button class="portfolio-button">View Website</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-column">
+            <div class="portfolio-card">
+                <img src="./images/placeholder.png" alt="Placeholder Image">
+                <div class="portfolio-container">
+                    <h2>Fake Website</h2>
+                    <p class="portfolio-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus felis, sollicitudin sit amet luctus sed, pellentesque nec leo. Quisque volutpat est nulla, in blandit ligula eleifend at. Maecenas suscipit dignissim nulla, ut convallis ligula molestie non. Aenean aliquet tellus efficitur, fringilla dui eget, euismod nunc. Integer lorem enim, pretium sit amet varius vel, suscipit iaculis lectus. Donec placerat interdum accumsan. Etiam ut mauris id nulla congue luctus.</p>
+                    <p><button class="portfolio-button">View Website</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-row">
+        <div class="portfolio-column">
+            <div class="portfolio-card">
+                <img src="./images/placeholder.png" alt="Placeholder Image">
+                <div class="portfolio-container">
+                    <h2>Fake Website</h2>
+                    <p class="portfolio-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus felis, sollicitudin sit amet luctus sed, pellentesque nec leo. Quisque volutpat est nulla, in blandit ligula eleifend at. Maecenas suscipit dignissim nulla, ut convallis ligula molestie non. Aenean aliquet tellus efficitur, fringilla dui eget, euismod nunc. Integer lorem enim, pretium sit amet varius vel, suscipit iaculis lectus. Donec placerat interdum accumsan. Etiam ut mauris id nulla congue luctus.</p>
+                    <p><button class="portfolio-button">View Website</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-column">
+            <div class="portfolio-card">
+                <img src="./images/placeholder.png" alt="Placeholder Image">
+                <div class="portfolio-container">
+                    <h2>Fake Website</h2>
+                    <p class="portfolio-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus felis, sollicitudin sit amet luctus sed, pellentesque nec leo. Quisque volutpat est nulla, in blandit ligula eleifend at. Maecenas suscipit dignissim nulla, ut convallis ligula molestie non. Aenean aliquet tellus efficitur, fringilla dui eget, euismod nunc. Integer lorem enim, pretium sit amet varius vel, suscipit iaculis lectus. Donec placerat interdum accumsan. Etiam ut mauris id nulla congue luctus.</p>
+                    <p><button class="portfolio-button">View Website</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script> // make navbar open and close
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className+= " responsive"
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
