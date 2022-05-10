@@ -177,12 +177,17 @@ html {
 .portfolio-section {
     background-color: #3E363F;
     color: #FFFCE8;
-    padding: 40px 10px 30px 40px;
+    padding: 40px 0px;
 }
-.portfolio-section h2 {
+.portfolio-text {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+.portfolio-text h2 {
     font-size: 28px;
 }
-.portfolio-section p {
+.portfolio-text p {
     line-height: 1.5;
     font-weight: bold;
 }
@@ -194,15 +199,14 @@ html {
 .portfolio-column {
     flex: 50%;
     padding: 0 8px;
-    margin-bottom: 26px;
+    margin-bottom: 80px;
     color: #3E363F;
 }
 .portfolio-card {
     background-color: #FFFCE8;
-    padding: 4px;
+    padding-bottom: 4px;
     box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.5);
-    width: 90%;
-    border-radius: 5px;
+    width: 80%;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -248,4 +252,69 @@ html {
     .portfolio-row {
         flex-direction: column;
     }
+}
+
+
+/* Contact Section */
+.contact-section {
+    background-color: #dd403a;
+    color: #FFFCE8;
+    padding: 20px 0;
+}
+.contact-text {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.contact-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.contact-text p {
+    line-height: 1.5;
+    font-weight: bold;
+}
+.contact-row {
+    background-color: #dd403a;
+    padding-bottom: 20px;
+}
+.contact-form {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    background-color: #FFFCE8;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+form label {
+    display: block;
+    margin: 10px 0px;
+}
+.asterix {
+    color: red;
+}
+#fullname, #email {
+    width: 100%;
+    padding: 12px;
+}
+#textbox {
+    width: 100%;
+    padding: 12px;
+}
+.contact-button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    background-color: #3E363F;
+    outline: none;
+    border: #3E363F solid 3px;
+    border-radius: 4px;
+    color: #FFFCE8;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-button:hover {
+    background-color: transparent;
+    color: #3E363F;
 }
