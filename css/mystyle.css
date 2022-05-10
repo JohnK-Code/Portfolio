@@ -107,7 +107,7 @@ html {
 }
 .about-row {
     background-color: #FFFCE8;
-    margin-bottom: 40px;
+    border-bottom: #FFFCE8 solid 40px;
 }
 .about-column {
     float: left;
@@ -117,8 +117,9 @@ html {
     color: #3E363F;
 }
 .about-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 7px 7px 4px 3px rgba(0, 0, 0, 0.2);
     margin: 8px;
+    background-color: white;
 }
 .about-card img {
     width: 100%;
@@ -152,6 +153,9 @@ html {
     color: #3E363F;
 }
 @media screen and (max-width: 650px) {
+    .about-section {
+        padding: 20px 20px ;
+    }
     .about-section h2 {
         font-size: 24px;
     }
@@ -233,7 +237,7 @@ html {
 }
 @media screen and (max-width: 650px) {
     .portfolio-section {
-        padding: 30px 10px 20px 30px;
+        padding: 20px 30px 20px 30px;
     }
     .portfolio-section h2 {
         font-size: 24px;
