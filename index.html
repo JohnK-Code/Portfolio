@@ -1,3 +1,8 @@
+
+
+<!--CHECK NOTES-->
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -15,9 +20,10 @@
     <!--For custom fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     
 </head>
+
 <body>
 
     <div class="topnav" id="myTopnav"> <!--NavBar-->
@@ -116,8 +122,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-row">
         <div class="portfolio-column">
             <div class="portfolio-card">
                 <img src="./images/placeholder.png" alt="Placeholder Image">
@@ -139,6 +143,7 @@
             </div>
         </div>
     </div>
+
 
 
     <div class="contact-section" id="contact-section"> <!--Contact Section-->
@@ -152,17 +157,31 @@
     <div class="contact-row">
         <form action="" class="contact-form">
             <label for="fullname">Full name <span class="asterix">*</span></label>
-            <input type="text" id="fullname" name="fullname" placeholder="Your full name...">
+            <input type="text" id="fullname" name="fullname" placeholder="Your full name..." required>
 
             <label for="email">E-mail <span class="asterix">*</span></label>
-            <input type="email" id="email" name="email" placeholder="Your E-mail address...">
+            <input type="email" id="email" name="email" placeholder="Your E-mail address..." required>
 
             <label for="textbox">Message <span class="asterix">*</span></label>
-            <textarea name="textbox" id="textbox" cols="30" rows="10"></textarea>
+            <textarea name="textbox" id="textbox" cols="30" rows="10" placeholder="Your message..." required></textarea>
 
-            <button class="contact-button" type="submit">Submit</button>
+            <div id="contact-button-div">
+                <button class="contact-button" type="submit">Submit</button>
+            </div>
         </form>
     </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p>Tech-Mafia &copy; 2022</p>
+        </div>
+        <div class="footer-right">
+            <a href="" class="font-icon"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="" class="font-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </footer>
 
 
 
