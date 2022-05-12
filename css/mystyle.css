@@ -64,6 +64,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid #3E363F;
 }
 .bg-text {
     color: #3E363F;
@@ -107,6 +108,7 @@ html {
 .about-row {
     background-color: #FFFCE8;
     padding-bottom: 40px;
+    border-bottom: 1px solid #3E363F;
 }
 .about-column {
     float: left;
@@ -193,6 +195,7 @@ html {
 .portfolio-row {
     background-color: #15ca7f;
     color: #3E363F;
+    border-bottom: 1px solid #3E363F;
 }
 .portfolio-column {
     width: 25%;
@@ -208,10 +211,12 @@ html {
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFCE8;
+    border: 1px solid #3E363F
 }
 .portfolio-card img {
     width: 100%;
     max-height: 300px;
+    border-bottom: 1px solid #3E363F;
 }
 .portfolio-container {
     padding: 0 16px; 
@@ -287,6 +292,7 @@ html {
 .contact-row {
     padding-bottom: 20px;
     background-color: #FFFCE8;
+    border-bottom: solid 1px black;
 }
 .contact-form {
     margin-right: auto;
@@ -313,19 +319,19 @@ form label {
     width: 100%;
     padding: 12px;
 }
-#contact-button-div {
-    display: flex;
-    justify-content: flex-end;
+.contact-button-div {
+    text-align: right;
+    padding-top: 20px;
 }
 .contact-button {
-    margin-top: 10px;
-    width: 30%;
-    padding: 15px;
-    outline: none;
-    border: none;
-    font-size: 18px;
+    padding: 25px 35px;
     background-color: #dd403a;
     color: #FFFCE8;
+    font-family: 'Archivo', sans-serif;
+    border: none;
+}
+.contact-button:hover {
+    background-color: #db2721;
 }
 
 
@@ -361,4 +367,12 @@ form label {
     clear: both;
     content: "";
     display: table;
+}
+@media screen and (max-width: 650px) {
+    .footer-left p {
+        font-size: 15px;
+    }
+    .font-icon {
+        font-size: 25px;
+    }
 }
